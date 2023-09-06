@@ -1,0 +1,18 @@
+.div_card {
+    width: 500px;
+    height: fit-content;
+    background-color: rgb(246, 230, 230) ;
+    border-radius: 25px;
+    border: solid 5px #020202;
+    margin: 20px;
+}
+.div_circulo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 70, 140);
+    border-radius: 50px;
+}
+.h1_txtTeste{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
