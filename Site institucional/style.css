@@ -7,7 +7,7 @@ body{
 }
 
 .header{
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid blueviolet;
     background-color: black;
 }
 
@@ -24,17 +24,164 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    color:chocolate;
+    color:white;
+}
+
+.container li{
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .container ul li a{
     text-decoration: none;
-    color: chocolate;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 .container h1{
-    color: aqua;
+    color: blueviolet;
 }
 
 
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.banner{
+    background-image: url(assets/img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+
+.banner .container p{
+    font-size: 36px;
+    color: white;
+    width: 700px;
+}
+
+.social{
+    background-color: #e5e5e5;
+    display: flex;   
+}
+
+.social .container{
+    justify-content: center;
+}
+
+.box img{
+    width: 100px;
+}
+
+.social .container .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p {
+    text-align: center;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+footer .container .version{
+    font-size: 12px;
+    font-weight: 800;
+    float: left;
+}
+
+.footer .container h4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    margin: 3%;
+    width: 30%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card h2{
+    margin: 0;
+    font-size: 30px;
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+    display: flex;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.formulario span{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.formulario input{
+    border: 1px solid blueviolet;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login .container{
+    justify-content: center;
+    height: 400px;
+}
+
+.botao{
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 504;
+    font-size: 13px;
+    color: blueviolet;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    align-self: center;
+
+}
